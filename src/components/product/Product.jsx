@@ -40,9 +40,9 @@ function Product() {
         {product.map(item => (
         <Col lg={4} md={4} sm={12} key={item.id} onClick={() => goDetailProduct(item.id)}>
           <Card className="shadow p-3 mb-3 mx-auto" style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={item.imgUrl} />
+            <Card.Img variant="top" src={item.img} />
             <Card.Body>
-              <Card.Title>{item.title}</Card.Title>
+              <Card.Title>{item.productName}</Card.Title>
               <Card.Text className="price">{item.price}</Card.Text>
               <div className="product-star">
                 <div className="star"><FontAwesomeIcon icon={faStar} /></div>
