@@ -33,7 +33,7 @@
 }
 
 .card {
-    height: 450px;
+    height: max-content;
     border-radius: 10px;
 }
 

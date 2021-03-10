@@ -43,7 +43,7 @@ function Product() {
             <Card.Img variant="top" src={item.img} />
             <Card.Body>
               <Card.Title>{item.productName}</Card.Title>
-              <Card.Text className="price">{item.price}</Card.Text>
+              <Card.Text className="price">Rp{item.price}</Card.Text>
               <div className="product-star">
                 <div className="star"><FontAwesomeIcon icon={faStar} /></div>
                 <div className="star"><FontAwesomeIcon icon={faStar} /></div>

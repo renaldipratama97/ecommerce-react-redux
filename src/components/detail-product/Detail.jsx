@@ -6,22 +6,22 @@ function Detail() {
   const detailProduct = useSelector(state => state.product.detailProduct)
   return (
     <div className="container">
-      <div className="row">
+      <div className="row shadow">
         <div className="col-lg-5">
           <div className="image-product">
-            <img src={detailProduct.imgUrl} alt="imageproduct" />
+            <img src={detailProduct.img} alt="imageproduct" />
           </div>
         </div>
 
         <div className="col-lg-7">
           <div className="description-box">
             <div className="product-name">
-              {detailProduct.title}
+              {detailProduct.productName}
             </div>
 
             <div className="product-price">
               <div className="price-text">HARGA</div>
-              <div className="price">{detailProduct.price}</div>
+              <div className="price">Rp{detailProduct.price}</div>
             </div>
 
             <div className="product-variant">
@@ -41,7 +41,7 @@ function Detail() {
             </div>
 
             <div className="toCart">
-              <button className="btn btn-warning">Add to Cart</button>
+              <button className="btn button-addtocart">Add to Cart</button>
             </div>
           </div>
         </div>
