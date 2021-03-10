@@ -1,0 +1,98 @@
+.container-fluid {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bolder;
+  width: 150px;
+  height: 70%;
+  border-radius: 5px;
+  background-color: rgb(255, 131, 43);
+  color: #f4f4f4;
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1%;
+  width: 700px;
+  height: 70%;
+}
+
+.input-box .category {
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 2%;
+  color: #808080;
+}
+
+.icon-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 150px;
+  height: 70%;
+  cursor: pointer;
+}
+
+.profile-box {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 150px;
+  height: 70%;
+  margin-left: 3%;
+}
+
+.profile-box .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.profile-box .image img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.profile-box .profile-name {
+  margin-left: 5%;
+  font-size: 13px;
+  font-weight: 500;
+  color: #808080;
+}
+
+.toko-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100px;
+  height: 40%;
+  border-left: 2px solid #e6e6e6;
+}
+
+.toko-box .toko-name {
+  font-size: 13px;
+  font-weight: 500;
+  color: #808080;
+}

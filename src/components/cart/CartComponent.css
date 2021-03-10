@@ -1,0 +1,14 @@
+.total-box {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.163);
+    border-radius: 12px;
+    height: max-content;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.total-box .button-beli {
+    background-color: rgb(255, 131, 43);
+    color: #f4f4f4;
+    font-weight: bold;
+}
